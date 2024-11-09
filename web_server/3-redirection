@@ -9,7 +9,7 @@ echo "Holberton School" | sudo tee /var/www/html/index.html
 # Redirection configuration
 replacement="server_name _;\\
     location /redirect_me {\\
-        return 301 https://github.com/noel-odero/;\\
+        return 301 https://github.com/S1rDavid9\\
     }"
 sudo sed -i "s|server_name _;|$replacement|" /etc/nginx/sites-available/default
 
